@@ -5,7 +5,7 @@ import './App.css';
 
 export default function App() {
   const [result, setAnswer] = useState(['?', '??']);
-  const [response, setResponse] = useState(['?', '??']);
+  const [response, setResponse] = useState(['Yes', 'No']);
   const [giph, setGiph] = useState('');
 
   const styles = {
