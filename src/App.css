@@ -18,9 +18,30 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: .3s;
 }
 .answer{
   color: #f7e0fe;
+  font-size: 3em;
+  animation: colorchange 10s infinite alternate;
+}
+@keyframes colorchange{
+  0%{
+    color: #f7e0fe;
+    margin-left: 0;
+  }
+  50%{
+    color: #4CAF50;
+    margin-left: 20px;
+  }
+  90%{
+    color: pink;
+    margin-right: 20px;
+  }
+  100%{
+    color: #f7e0fe;
+    margin-left: 0;
+  }
 }
 button:hover{
   background-color: #f7e0fe;
