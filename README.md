@@ -1,5 +1,5 @@
 ## Yes No Oracle React
-This project uses the React Hooks and the Giphy API to deliver a yes or no, stop or go, or heads or tails answer to a question. Users can select what type of answer they want to receive. Here is the Beta Version: http://materialistic-kick.surge.sh . Eventually this project will go live at http://yesornooracle.com.
+This project uses the React Hooks and the Giphy API to deliver a yes or no, stop or go, or heads or tails answer to a question. Users can select what type of answer they want to receive. Here is the Beta Version: http://angry-soda.surge.sh . Eventually this project will go live at http://yesornooracle.com.
 
 ##Install Locally
 * Obtain free Giphy API Key. In the src directory create a file named secret.js. Place the following code in the file:
